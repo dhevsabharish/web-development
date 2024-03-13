@@ -1,0 +1,39 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    background-color: #ffefcf;
+    color: white;
+}
+
+.container {
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 40px auto 40px;
+    grid-template-areas: "h h h h h h h h h h h h" "m c c c c c c c c c c c" "f f f f f f f f f f f f";
+    grid-gap: 3px;
+    padding: 75px;
+}
+
+.header {
+    grid-area: h;
+    background-color: red;
+}
+
+.menu {
+    background-color: turquoise;
+    grid-area: m;
+}
+
+.content {
+    background-color: green;
+    grid-area: c;
+}
+
+.footer {
+    background-color: purple;
+    grid-area: f;
+}

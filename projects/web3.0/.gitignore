@@ -1,0 +1,42 @@
+**/.env
+**/node_modules/*
+**/.firebaserc
+
+**/firebase.json
+**/public
+**/dist
+
+**/.firebase/
+
+**/.DS_*
+**/*.log
+**/logs
+**/*.backup.*
+**/*.back.*
+
+**/node_modules
+**/bower_components
+
+# Local History for Visual Studio Code
+**/.history/
+
+# Built Visual Studio Code Extensions
+**/*.vsix
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+**/.history
+
+# Support for Project snippet scope
+**/.vscode/*.code-snippets
+
+# Ignore code-workspaces
+**/*.code-workspace
+
+**/coverage
+**/coverage.json
+**/typechain
+**/typechain-types
+**/cache
+**/artifacts
+

@@ -1,0 +1,4 @@
+in mongoose everything is derived from a schema.
+then we compile our schema into model.
+A model is a class with which we construct documents.
+$pull comes from mongodb

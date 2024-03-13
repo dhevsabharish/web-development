@@ -1,0 +1,36 @@
+html, body{
+    height: 100%;
+    background-color: #ffe6ca;
+}
+
+
+.container {
+    border: 5px solid orangered;
+    display: flex;
+    color: white;
+    line-height: 4;
+    font-size: xx-large;
+    text-align: center;
+    margin: 20px;
+    justify-content: center;
+    align-content:center;
+}
+
+
+
+
+.home {
+    background-color: #364547;
+}
+
+.search {
+    background-color: #ffe268;
+}
+
+.logout {
+    background-color: #ffb037;
+}
+
+.cell{
+    padding: 0 10px;
+}
